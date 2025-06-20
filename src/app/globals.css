@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --color-black: #000000;
+  --color-graphite: #333333;
+  --color-emerald: #3CB371; /* A shade of emerald */
+}
+
+body {
+  background-color: var(--color-black);
+  color: #ffffff; /* White text for readability on dark background */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* You can add more specific styles here to apply the colors to different sections */
+/* For example: */
+/* .navbar { background-color: var(--color-graphite); } */
+/* .hero { color: var(--color-emerald); } */
+/* .footer { background-color: var(--color-graphite); } */
+
