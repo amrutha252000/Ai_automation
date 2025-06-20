@@ -6,11 +6,6 @@ import { collection, addDoc } from "firebase/firestore";
 
 const useCases = [
   {
-    title: "Sales Operations and Enablement",
-    text: "Eliminate manual data entry by automatically capturing and logging call notes, emails, and meeting details directly into your CRM. Leverage AI to generate highly accurate sales forecasts, enabling data-driven decisions on strategy and resource allocation. Empower your team with AI-driven coaching that analyzes sales calls and provides real-time feedback to enhance performance.",
-    img: "/images/carousel3.jpg",
-  },
-  {
     title: "Lead Generation and Prospecting",
     text: "Harness the power of AI to intelligently score and prioritize leads, ensuring your sales team focuses on the most promising prospects. Automate the search for new customers by scouring online sources to find those who perfectly fit your ideal profile. Leverage predictive analytics to identify companies likely to be in the market for your solution before they even begin their search.",
     img: "/images/carousel1.jpg",
@@ -19,6 +14,11 @@ const useCases = [
     title: "Customer Engagement and Personalization",
     text: "Engage website visitors 24/7 with intelligent AI-powered chatbots that answer questions and qualify leads in real-time. Deliver highly personalized email campaigns and content recommendations that resonate with each individual prospect's needs and interests. Utilize sentiment analysis to understand customer emotions, allowing you to tailor your approach and proactively address concerns.",
     img: "/images/carousel2.jpeg",
+  },
+  {
+    title: "Sales Operations and Enablement",
+    text: "Eliminate manual data entry by automatically capturing and logging call notes, emails, and meeting details directly into your CRM. Leverage AI to generate highly accurate sales forecasts, enabling data-driven decisions on strategy and resource allocation. Empower your team with AI-driven coaching that analyzes sales calls and provides real-time feedback to enhance performance.",
+    img: "/images/carousel3.jpg",
   },
   {
     title: "Deal Closure and Post-Sale Activities",
