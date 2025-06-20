@@ -83,8 +83,8 @@ export default function Home() {
 
           {/* Nav Links */}
           <div className="space-x-4 font-medium">
-            <a href="#power" className="hover:text-emerald-400">Power</a>
-            <a href="#uses" className="hover:text-emerald-400">Use Cases</a>
+            <a href="#power" className="hover:text-emerald-400">Benefits</a>
+            <a href="#uses" className="hover:text-emerald-400">Case studies</a>
             <a
               href="#contact"
               className="bg-emerald-500 hover:bg-emerald-600 text-white py-2 px-4 rounded shadow transition"
@@ -163,7 +163,7 @@ export default function Home() {
         {/* Use‑Case Carousel */}
         <section id="uses" className="space-y-16">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-500">
-            AI Automation Use Cases
+            Explore AI Automation in Real-World
           </h2>
 
           <div className="relative max-w-4xl mx-auto">
@@ -224,7 +224,7 @@ export default function Home() {
 
       <section id="contact" className="bg-black py-24 border-t border-emerald-500/20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 md:mb-16 text-emerald-500">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 md:mb-16 text-emerald-500">Contact Us!!</h2>
 
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12 ml-25 mr-30">
 
